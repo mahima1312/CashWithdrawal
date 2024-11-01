@@ -1,0 +1,84 @@
+/* Write your CSS here */
+
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.withdrawal-container {
+  background-color: #150b3e;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.name-container {
+  display: flex;
+  align-items: center;
+}
+.name-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding-top: 15px;
+  text-align: center;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-size: 15px;
+}
+
+.name {
+  color: #d4d2db;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.balance-withdrawal-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.your-balance {
+  color: #585076;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.in-rupees {
+  color: #585076;
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.center-align {
+  align-self: center;
+}
+
+.balance {
+  font-size: 36px;
+  color: #d4d2db;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.withdraw {
+  font-weight: bold;
+  font-size: 24px;
+  color: #d4d2db;
+  margin-bottom: 10px;
+}
+.sum {
+  font-size: 18px;
+  color: #585076;
+  font-weight: bold;
+}
+
+.values-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 0px;
+}
